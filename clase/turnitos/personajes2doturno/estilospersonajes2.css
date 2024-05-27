@@ -1,0 +1,259 @@
+*{
+    margin: 0;
+    padding: 0;
+    background-color: black;
+}
+ ul{
+    list-style-type: square;
+ }
+
+ .logo{
+    width: 150px;
+   transition: height 2s, width 1s;
+       }
+       .logo:hover{
+           width: 200px;
+       }
+       
+ .MenuSuperior {
+    list-style: none;
+    text-align: center;
+}
+
+.MenuSuperior li {
+    display: inline;
+}
+
+.MenuSuperior a{
+    text-decoration: none;
+    color: goldenrod;
+    font-weight: 700;
+    font-family: "Freeman", sans-serif;
+    padding: 2rem;
+    font-size: 25px;
+    transition: height 2s, width 1s;
+}
+
+.MenuSuperior a:hover{
+    font-size: 35px;
+
+}
+
+ .parraf {
+    background-color: goldenrod;
+  }
+  
+  .parraf p{
+    background-color: goldenrod;
+    padding-left: 20px;
+        font-size: 30px;
+        font-family: "Freeman", sans-serif;
+  }
+  .parraf h1{
+    position: relative;
+    left: 5px;
+    background-color: goldenrod;
+    padding-left: 25px;
+        font-size: 30px;
+        font-family: "Freeman", sans-serif;
+  }
+
+  .integrantespadreuno{
+    display: grid;
+    grid-template-columns: (3, 1fr); 
+	grid-template-rows: (3, 1fr); 
+    grid-template-areas:
+     "uno dos tres"
+     "cuatro cinco seis"
+     "siete ocho nueve"
+     "diez once doce"
+     "trece catorce quince"
+     "dieciseis diecisiete dieciocho"
+     "diecinueve veinte veintiuno"
+     "veintidos veintitres none"; 
+
+   column-gap: 100px;
+   row-gap: 30px;
+   justify-items: stretch;
+   justify-content: space-around;
+   margin: 10px;
+  }
+  
+  .integrantes{
+    display: flex;
+    padding: 2rem;
+    width: 70%;
+    background-color: goldenrod;
+ }
+.integrantes img{
+    width: 180px ;
+    height: 300px;
+    border-radius: 10px;
+    box-shadow:black 7px 7px;  
+    position: relative;
+    right: 10px;
+}
+
+.titulo {
+    color: goldenrod;
+    font-family: "Jersey 15", sans-serif;
+    font-weight: 700;
+    text-align: center;
+    width: 100%;
+    max-width: 700px;
+    animation: bounce; 
+    animation-duration: 2s; 
+    margin: 0 auto;
+    font-size: 4vw; 
+}
+
+.uno{
+    grid-area: uno;
+    width: 450px;
+}
+.dos{
+    grid-area: dos;
+    width: 450px;
+    
+}
+.tres{
+    grid-area: tres;
+    width: 450px;
+}
+.cuatro{
+    grid-area: cuatro;
+    width: 450px;
+}
+.cinco{
+    grid-area: cinco;
+    width: 450px;
+}
+.seis{
+    grid-area: seis;
+    width: 450px;
+}
+.siete{
+    grid-area: siete;
+    width: 450px;
+}
+.ocho{
+    grid-area: ocho;
+    width: 450px;
+    
+}
+.nueve{
+    grid-area: nueve;
+    width: 450px;
+}
+.diez{
+    grid-area: diez;
+    width: 450px;
+}
+.once{
+    grid-area: once;
+    width: 450px;
+
+}
+.doce{
+    grid-area: doce;
+    width: 450px;
+}
+.trece{
+    grid-area: trece;
+    width: 450px;
+}
+.catorce{
+    grid-area: catorce;
+    width: 450px;
+    
+}
+.quince{
+    grid-area: quince;
+    width: 450px;
+}
+.dieciseis{
+    grid-area: dieciseis;
+    width: 450px;
+}
+.diecisiete{
+    grid-area: diecisiete;
+    width: 450px;
+    
+}
+.dieciocho{
+    grid-area: dieciocho;
+    width: 450px;
+}
+.diecinueve{
+    grid-area: diecinueve;
+    width: 450px;
+}
+.veinte{
+    grid-area: veinte;
+    width: 450px;
+    
+}
+.veintiuno{
+    grid-area: veintiuno;
+    width: 450px;
+}
+.veintidos{
+    grid-area: veintidos;
+    width: 450px;
+}
+.veintitres{
+    grid-area: veintitres;
+    width: 450px;
+}
+
+@media(min-width:576px) and (max-width:768px){
+      .integrantespadreuno{
+        display: flex;
+        flex-direction: column;
+        align-items: center
+      }
+      .MenuSuperior a{
+        text-decoration: none;
+        color: goldenrod;
+        font-weight: 700;
+        font-family: "Freeman", sans-serif;
+        padding: 0.3rem;
+        margin: 19px;
+        font-size: 25px;
+    }
+    .titulo {
+        font-size: 5vw; 
+        width: 90%; 
+    }
+}
+
+@media(max-width:576px){
+     .integrantespadreuno{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+     }
+    .integrantes{
+        width: 80%;
+    }
+    .titulo {
+        font-size: 6vw;
+        width: 100%; 
+        text-align: center;
+    }
+    .MenuSuperior a{
+            text-decoration: none;
+            color: goldenrod;
+            font-weight: 700;
+            font-family: "Freeman", sans-serif;
+            padding: 0.3rem;
+            margin: 19px;
+            font-size: 25px;
+
+        }
+        
+
+
+      }
+
+

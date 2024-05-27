@@ -1,0 +1,150 @@
+*{
+    margin: 0;
+    padding: 0;
+    background-color: black
+}
+
+.logo{
+    width: 150px;
+   transition: height 2s, width 1s;
+       }
+       .logo:hover{
+           width: 200px;
+       }
+
+li {
+    display: inline-block;
+    height: 100px;
+}
+ .MenuSuperior {
+    list-style: none;
+    text-align: center;
+}
+
+.MenuSuperior li {
+    display: inline;
+}
+
+.MenuSuperior a{
+    text-decoration: none;
+    color: goldenrod;
+    font-weight: 700;
+    font-family: "Freeman", sans-serif;
+    padding: 2rem;
+    font-size: 25px;
+    transition: height 2s, width 1s;
+}
+
+.MenuSuperior a:hover{
+    font-size: 35px;
+
+}
+
+.fieldset {
+    border: 9px solid goldenrod;
+    border-radius: 10px;
+    font-family: "Freeman", sans-serif;
+    text-align: center;
+    margin: 0 auto;
+    padding: 1rem;
+    width: 100%;
+    max-width: 600px; 
+    box-sizing: border-box;
+}
+
+.fieldset legend{
+   width: 200px;
+   font-size: 20px;
+
+}
+.Nombre{
+    text-align: center;
+    font-family: "Freeman", sans-serif;
+
+}
+.Apellido{
+    text-align: center;
+    font-family: "Freeman", sans-serif;
+}
+
+.form {
+    color: goldenrod;
+    width: 100%;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+
+
+.label{
+    display: block;
+    border: black;
+}
+
+.enviar input{
+    color: goldenrod;
+   border: goldenrod solid;
+    padding: 1rem;
+    width: 150px;
+    position: relative;
+    left: 210px;
+    top: 40px;
+    cursor: pointer;
+}
+
+.enviar input:hover{
+    background-color: white;
+    color: black;
+}
+
+
+.Apellido{
+    border: goldenrod solid;
+    color: white;
+
+}
+
+.mensaje{
+    text-align: center;
+    font-family: "Freeman", sans-serif;
+}
+
+.mensaje textarea{
+    border: goldenrod solid;
+    width: 487px;
+    height: 140px;
+    resize: none;
+    color: white;
+}
+
+@media (min-width: 480px) and (max-width: 768px) {
+    .MenuSuperior a{
+        text-decoration: none;
+        color: goldenrod;
+        font-weight: 700;
+        font-family: "Freeman", sans-serif;
+        padding: 0.3rem;
+        margin: 19px;
+        font-size: 25px;
+    }
+}
+
+@media(max-width:480px){
+    .MenuSuperior a{
+        text-decoration: none;
+        color: goldenrod;
+        font-weight: 700;
+        font-family: "Freeman", sans-serif;
+        padding: 0.3rem;
+        margin: 19px;
+        font-size: 25px;
+    }
+
+    .logo {
+        width: 100px;
+    }
+
+    .logo:hover {
+        width: 150px;
+    }
+}

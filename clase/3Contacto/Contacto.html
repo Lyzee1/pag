@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="/clase/3Contacto/estiloscontacto.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Freeman&display=swap"
+      rel="stylesheet"
+    />
+    
+  </head>
+
+  <body>
+    <nav>
+      <ul class="MenuSuperior">
+        <br />
+        <img
+          class="logo"
+          src="/clase/imagenes/teamgolden.jpeg"
+          alt="Logo Golden"
+          width="150px"
+        />
+        <br />
+        <br />
+        <li><a href="/clase/index.html">Home</a></li>
+        <li><a href="/clase/turnitos/turnos.html">Integrantes</a></li>
+        <li><a href="/clase/3Contacto/Contacto.html">Contacto</a></li>
+        <li><a href="/clase/4Nosotros/Nosotros.html">Nosotros</a></li>
+        <li><a href="/clase/AGT/agt.html">ALL GOLDEN TEAM</a></li>
+      </ul>
+    </nav>
+
+    <br />
+    <br />
+    <br />
+
+    <form action="" method="post" class="form">
+      <fieldset class="fieldset">
+        <legend>Contactate con nosotros!</legend>
+        <br />
+
+        <div class="nombre">
+          <label for="Nombre" class="label">Nombre</label>
+          <input
+            type="text"
+            name="Nombre"
+            class="Apellido"
+            id="Nombre"
+            required
+          />
+        </div>
+        <br />
+
+        <div class="apellido">
+          <label for="Apellido" class="label">Apellido</label>
+          <input
+            type="text"
+            name="Apellido"
+            class="Apellido"
+            id="Apellido"
+            required
+          />
+        </div>
+        <br />
+        <div class="mensaje">
+          <label for="Consulta" class="label">Consulta:</label>
+          <textarea
+            name="mensaje"
+            id="mensaje"
+            class="mensajetext"
+            rows="5"
+            cols="20"
+          ></textarea>
+        </div>
+      </fieldset>
+
+      <div class="enviar">
+        <input type="submit" value="Enviar formulario" />
+      </div>
+    </form>
+  </body>
+</html>
